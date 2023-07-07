@@ -239,14 +239,12 @@
         <div class="row">
           <div class="col-md-6">
             <div class="contact_form ">
-              <form action="">
-                <input type="text" placeholder="Nom ">
-                <input type="text" placeholder="Prenom ">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message" class="message_input">
-                <button>
-                  Envoyer
-                </button>
+              <form action="formulaire.php" method="POST">
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="text" name="prenom" placeholder="Prenom">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="message" placeholder="Message">
+                <button type="submit">Envoyer</button>
               </form>
             </div>
           </div>
@@ -386,7 +384,7 @@
         </h2>
       </div>
       <div class="box">
-        <a href="" class="img-box">
+        <a href="https://www.facebook.com/people/EBE-Group/100093279056134/" class="img-box">
           <img src="image/facebook.png" alt="" class="img-1">
           <img src="image/facebook-o.png" alt="" class="img-2">
         </a>
@@ -394,7 +392,7 @@
           <img src="image/insta.png" alt="" class="img-1">
           <img src="image/insta-o.png" alt="" class="img-2">
         </a>
-        <a href="" class="img-box">
+        <a href="/about.html" class="img-box">
           <img src="image/mail.png" alt="" class="img-1">
           <img src="image/mail-o.png" alt="" class="img-2">
         </a>
