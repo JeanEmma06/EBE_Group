@@ -9,10 +9,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $email = $_POST['email'];
   $message = $_POST['message'];
   
-  $dbhost = 'localhost';
-$dbuser = 'your-db-user';
-$dbpass = 'your-db-password';
-$dbname = 'your-db-name';
+  $dbhost = 'sql206.infinityfree.com';
+$dbuser = '	if0_34580001';
+$dbpass = 'Rg2jvHfusnEn';
+$dbname = 'if0_34580001_mail_info';
 
 // Connexion à la base de données
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);

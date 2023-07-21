@@ -452,26 +452,26 @@ a:focus {
   width: 100%;
 }
 
-/* client_section */
-.client_section {
+/* fond_section */
+.fond_section {
   font-family: "Roboto", sans-serif;
 }
 
-.client_section .img-box {
+.fond_section .img-box {
   min-width: 175px;
   max-width: 175px;
 }
 
-.client_section .img-box img {
+.fond_section .img-box img {
   width: 100%;
 }
 
-.client_section .client_container {
+.fond_section .fond_container {
   width: 70%;
   margin: auto;
 }
 
-.client_section .client-id {
+.fond_section .fond-id {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,7 +480,7 @@ a:focus {
           align-items: center;
 }
 
-.client_section .client_name {
+.fond_section .fond_name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,54 +488,54 @@ a:focus {
   padding-left: 20px;
 }
 
-.client_section .client_name h3 {
+.fond_section .fond_name h3 {
   font-weight: 300;
   text-transform: uppercase;
 }
 
-.client_section .client_name p {
+.fond_section .fond_name p {
   color: #7a6966;
 }
 
-.client_section .client_detail {
+.fond_section .fond_detail {
   padding: 25px 45px;
   background-color: #776e6c;
 }
 
-.client_section .client_text p,
-.client_section .client_text blockquote {
+.fond_section .fond_text p,
+.fond_section .fond_text blockquote {
   margin: 0;
   position: relative;
   color: #fff;
 }
 
-.client_section .client_text blockquote::before,
-.client_section .client_text blockquote::after {
+.fond_section .fond_text blockquote::before,
+.fond_section .fond_text blockquote::after {
   position: absolute;
   font-family: "FontAwesome";
   font-size: 20px;
 }
 
-.client_section .client_text blockquote::before {
+.fond_section .fond_text blockquote::before {
   content: "\f10d";
   top: -6px;
   left: -30px;
 }
 
-.client_section .client_text blockquote::after {
+.fond_section .fond_text blockquote::after {
   content: "\f10e";
   bottom: -10px;
   right: 5px;
 }
 
-.client_section .carousel-indicators {
+.fond_section .carousel-indicators {
   bottom: -75px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.client_section .carousel-indicators li {
+.fond_section .carousel-indicators li {
   width: 15px;
   height: 15px;
   -webkit-box-sizing: unset;
@@ -545,11 +545,11 @@ a:focus {
   border-radius: 100%;
 }
 
-.client_section .carousel-indicators li.active {
+.fond_section .carousel-indicators li.active {
   background-color: #000;
 }
 
-/* end client_section */
+/* end fond_section */
 .info_section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -611,4 +611,3 @@ a:focus {
 }
 
 /* end footer section*/
-/*# sourceMappingURL=style.css.map */
