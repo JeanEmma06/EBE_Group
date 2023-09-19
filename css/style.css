@@ -408,7 +408,10 @@ a:focus {
   background-color: #1c1b2d;
   color: #ffffff;
 }
-
+.wider-textarea {
+  max-width: 100%; /* Largeur maximale de 100% */
+  width: 100%; /* Largeur de 100% pour remplir l'espace disponible */
+}
 .contact_section .contact_form input.message_input {
   padding: 25px 0 90px 15px;
 }
